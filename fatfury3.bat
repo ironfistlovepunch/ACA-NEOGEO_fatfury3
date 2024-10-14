@@ -38,6 +38,4 @@ REM EA010
 forcecrc32.py 069-p1.p1 958480 a8bcfbbc
 
 REM compress
-powershell Compress-Archive 069*.* -Force -DestinationPath fatfury3.zip
-
-copy fatfury3.zip romcenter
+REM powershell Compress-Archive 069*.* -Force -DestinationPath fatfury3.zip
